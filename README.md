@@ -4,9 +4,9 @@ Codex Skills 母仓库：只维护索引与技能说明，技能代码、版本�
 
 ## 收录技能
 
-| 技能 | 子仓库 | 说明 | 最新 Release |
-|:---|:---|:---|:---|
-| [skillspector-scan](https://github.com/Wuqi24/skillspector-scan) | [Wuqi24/skillspector-scan](https://github.com/Wuqi24/skillspector-scan) | 离线静态安全审查：对本地 AI Agent 技能做只读扫描（16+ 类风险、简报模式、已审记录） | [v1.1.0](https://github.com/Wuqi24/skillspector-scan/releases/tag/v1.1.0) |
+| 技能 | 说明 | 最新 Release |
+|:---|:---|:---|
+| [skillspector-scan](https://github.com/Wuqi24/skillspector-scan) | 离线静态安全审查：对本地 AI Agent 技能做只读扫描（16+ 类风险、简报模式、已审记录） | [v1.1.0](https://github.com/Wuqi24/skillspector-scan/releases/tag/v1.1.0) |
 
 每个子仓库的 Release 页面只属于它自己，互不混排。
 

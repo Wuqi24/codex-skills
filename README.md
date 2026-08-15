@@ -10,11 +10,32 @@
 
 | 技能 | 说明 | 最新 Release |
 |:---|:---|:---|
-| [skillspector-scan](https://github.com/Wuqi24/skillspector-scan) | 离线、证据驱动、可审计的 AI Agent Skill 安全审查器：16+ 类风险、简报模式、已审记录、Inspection Ledger、Docker / 云端 CI 扫描 | [v1.2.0](https://github.com/Wuqi24/skillspector-scan/releases/tag/v1.2.0) |
+| [skillspector-scan](https://github.com/Wuqi24/skillspector-scan) | 离线、证据驱动、可审计的 AI Agent Skill 安全审查器：16+ 类风险、简报模式、已审记录、Inspection Ledger、Docker / 云端 CI 扫描 | [v1.2.1](https://github.com/Wuqi24/skillspector-scan/releases/tag/v1.2.1) |
 
 每个子仓库的 Release 页面只属于它自己，互不混排。
 
 技能详情见 [skills/skillspector-scan.md](skills/skillspector-scan.md)。
+
+## 云端 CI 扫描
+
+[skillspector-scan](https://github.com/Wuqi24/skillspector-scan) 提供可复用的 GitHub Actions workflow（`.github/workflows/skill-scan.yml`）：把任意技能放进 GitHub 仓库即可云端扫描，无需本地 PowerShell / Python / git，也无需 Docker。
+
+其他仓库引用（完整说明见子仓库 [README](https://github.com/Wuqi24/skillspector-scan) 与 Wiki）：
+
+```yaml
+name: scan-skill
+on: workflow_dispatch
+jobs:
+  scan:
+    permissions:
+      contents: read
+    uses: Wuqi24/skillspector-scan/.github/workflows/skill-scan.yml@main
+    with:
+      skill_path: '.'
+      mode: full
+```
+
+引用方必须声明 `permissions: contents: read`，否则 GitHub 会在启动前校验失败。
 
 ## 安装
 

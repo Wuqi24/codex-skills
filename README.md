@@ -33,14 +33,6 @@ jobs:
 
 引用方必须声明 `permissions: contents: read`，否则 GitHub 会在启动前校验失败。
 
-## 安装
-
-母仓库不含技能代码，请从技能子仓库获取：
-
-```powershell
-git clone https://github.com/Wuqi24/skillspector-scan.git "$HOME\.codex\skills\skillspector-scan"
-```
-
 ## 约定
 
 - **母仓库只做门面**：索引、技能卡片、维护说明；不存放技能代码副本

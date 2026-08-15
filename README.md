@@ -12,8 +12,6 @@
 |:---|:---|:---|
 | [skillspector-scan](https://github.com/Wuqi24/skillspector-scan) | 离线、证据驱动、可审计的 AI Agent Skill 安全审查器：16+ 类风险、简报模式、已审记录、Inspection Ledger、Docker / 云端 CI 扫描 | [v1.2.1](https://github.com/Wuqi24/skillspector-scan/releases/tag/v1.2.1) |
 
-每个子仓库的 Release 页面只属于它自己，互不混排。
-
 技能详情见 [skills/skillspector-scan.md](skills/skillspector-scan.md)。
 
 ## 云端 CI 扫描

@@ -1,7 +1,6 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-# codex-skills
-
+# codex-skills 中文仓库
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 **Codex Skills 仓库**：只维护索引与技能说明；技能代码、版本与 Release 都在各自的**独立子仓库**中。

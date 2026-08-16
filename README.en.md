@@ -4,7 +4,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
-**Codex Skills Mother Repository**: maintains only the index and skill descriptions; skill code, versions, and Releases live in their own **separate sub-repositories**.
+**Codex Skills Main Repository**: maintains only the index and skill descriptions; skill code, versions, and Releases live in their own **separate sub-repositories**.
 
 > **This is a personal repository of self-made Codex skills**: all skills are developed and maintained by an individual, are not OpenAI official products, and are provided AS-IS without any warranty.
 
@@ -44,7 +44,7 @@ Callers must declare `permissions: contents: read`, otherwise GitHub fails valid
 
 ## Convention
 
-- **Mother repo is facade only**: index, skill cards, maintenance notes; no skill code copies
+- **Main repo is facade only**: index, skill cards, maintenance notes; no skill code copies
 - **One skill per repo**: versions, Releases, issues, and stars stay in their own repos
 - **Adding a skill**: create a sub-repo -> add a card in `skills/` (see `skills/_template.md`) -> update this index
 

@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
-**Codex Skills 母仓库**：只维护索引与技能说明；技能代码、版本与 Release 都在各自的**独立子仓库**中。
+**Codex Skills 仓库**：只维护索引与技能说明；技能代码、版本与 Release 都在各自的**独立子仓库**中。
 
 > **本仓库为个人自制 Codex Skills 仓库**：所有技能均由个人开发与维护，非 OpenAI 官方产物，按"现状"提供，不提供任何保证。
 
@@ -19,7 +19,7 @@
 
 [skillspector-scan](https://github.com/Wuqi24/skillspector-scan) 提供可复用的 GitHub Actions workflow（`.github/workflows/skill-scan.yml`）：把任意技能放进 GitHub 仓库即可云端扫描，无需本地 PowerShell / Python / git，也无需 Docker。
 
-其他仓库引用（完整说明见子仓库 [README](https://github.com/Wuqi24/skillspector-scan) 与 Wiki）：
+其他仓库引用（完整说明见其仓库 [README](https://github.com/Wuqi24/skillspector-scan) 与 Wiki）：
 
 ```yaml
 name: scan-skill
@@ -45,7 +45,7 @@ jobs:
 
 ## 约定
 
-- **母仓库只做门面**：索引、技能卡片、维护说明；不存放技能代码副本
+- **本仓库只做门面**：索引、技能卡片、维护说明；不存放技能代码副本
 - **技能各归其仓**：版本、Release、issue、star 都在子仓库，互不干扰
 - **新增技能**：建子仓库 → 在 `skills/` 加卡片（参考 `skills/_template.md`）→ 更新本索引
 
